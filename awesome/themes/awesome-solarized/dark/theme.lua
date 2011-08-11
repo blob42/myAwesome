@@ -9,7 +9,7 @@
 -- {{{ Main
 theme = {}
 theme.default_themes_path = "/usr/share/awesome/themes"
-theme.wallpaper_cmd = { "feh --bg-scale " .. awful.util.getdir("config") .. "/themes/dark_blue2.jpg" }
+theme.wallpaper_cmd = { "feh --bg-scale" .. awful.util.getdir("config") .. "/themes/dark_blue2.jpg" }
 theme.colors = {}
 theme.colors.base3   = "#002b36"
 theme.colors.base2   = "#073642"
